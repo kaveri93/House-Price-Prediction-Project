@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House Price Prediction</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background: #1b1b2f;
+            color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 280px;
+            background: #162447;
+            color: #f5f5f5;
+            padding: 20px;
+            box-shadow: 4px 0 10px rgba(0,0,0,0.3);
+        }
+        .sidebar h2 {
+            margin-top: 0;
+            font-size: 20px;
+            border-bottom: 2px solid #e43f5a;
+            padding-bottom: 10px;
+        }
+        .sidebar p {
+            margin: 8px 0;
+        }
+        .main {
+            flex: 1;
+            background: #f5f5f5;
+            padding: 30px;
+            border-radius: 12px 0 0 12px;
+        }
+        h1 {
+            text-align: center;
+            color: #162447;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            width: 100%;
+            transition: 0.3s;
+        }
+        input:focus {
+            border-color: #2575fc;
+            outline: none;
+            box-shadow: 0 0 8px rgba(37,117,252,0.5);
+        }
+        button {
+            grid-column: span 2;
+            padding: 14px;
+            background: #e43f5a;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #d63447;
+        }
+        .result {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 20px;
+            color: #162447;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        🏡 House Price Prediction Under Viharatech Organization
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h2>My Profile</h2>
+            <p><strong>Name:</strong> S. Lakshmi Kaveri</p>
+            <p><strong>Skills:</strong></p>
+            <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>Enter House Details</h1>
+            <form action="/predict" method="post">
+                <label>Bedrooms:</label>
+                <input type="number" name="bedrooms" required>
+
+                <label>Bathrooms:</label>
+                <input type="number" step="0.1" name="bathrooms" required>
+
+                <label>Sqft Living:</label>
+                <input type="number" name="sqft_living" required>
+
+                <label>Sqft Lot:</label>
+                <input type="number" name="sqft_lot" required>
+
+                <label>Floors:</label>
+                <input type="number" step="0.1" name="floors" required>
+
+                <label>Waterfront (0/1):</label>
+                <input type="number" name="waterfront" required>
+
+                <label>View (0-4):</label>
+                <input type="number" name="view" required>
+
+                <label>Condition (1-5):</label>
+                <input type="number" name="condition" required>
+
+                <label>Sqft Above:</label>
+                <input type="number" name="sqft_above" required>
+
+                <label>Sqft Basement:</label>
+                <input type="number" name="sqft_basement" required>
+
+                <label>Year Built:</label>
+                <input type="number" name="yr_built" required>
+
+                <label>Year Renovated:</label>
+                <input type="number" name="yr_renovated" required>
+
+                <label>City (encoded):</label>
+                <input type="number" name="city" required>
+
+                <label>Country (encoded):</label>
+                <input type="number" name="country" required>
+
+                <button type="submit">Predict Price</button>
+            </form>
+            <div class="result">
+                {{ prediction_text }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
