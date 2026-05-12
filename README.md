@@ -12,7 +12,8 @@
         🏡 House Price Prediction — Flask Deployment
 Python | scikit-learn | Flask | License: MIT
 
-A complete, production-style implementation of **House Price Prediction** using Multiple Linear Regression, trained on a USA housing dataset, and served through a Flask web application.
+A complete, production-style implementation of **House Price Prediction** using Multiple Linear Regression,
+trained on a USA housing dataset, and served through a Flask web application.
       </pre>
     </h2>
   </section>
