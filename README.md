@@ -4,64 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>🏡 House Price Prediction — Viharatech</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-      color: #f5f5f5;
-    }
-    header {
-      background: #1b1b2f;
-      padding: 20px;
-      text-align: center;
-      font-size: 28px;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-    section {
-      padding: 30px;
-      background: rgba(0,0,0,0.4);
-      margin: 20px;
-      border-radius: 10px;
-    }
-    h2 {
-      color: #e43f5a;
-      border-bottom: 2px solid #e43f5a;
-      padding-bottom: 5px;
-    }
-    ul {
-      margin: 10px 0;
-      padding-left: 20px;
-    }
-    pre {
-      background: #162447;
-      color: #00ffcc;
-      padding: 10px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    code {
-      background: #333;
-      color: #00ffcc;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-    img {
-      width: 80%;
-      border: 3px solid #e43f5a;
-      border-radius: 10px;
-      display: block;
-      margin: auto;
-    }
-    .footer {
-      text-align: center;
-      padding: 20px;
-      background: #162447;
-      font-size: 14px;
-    }
-  </style>
 </head>
 <body>
   <header>🏡 House Price Prediction Under Viharatech Organization</header>
