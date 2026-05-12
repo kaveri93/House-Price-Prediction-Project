@@ -7,15 +7,16 @@
 <body>
   <header><h1>🏡 House Price Prediction -OOPS Implementation with Flask Deployment</h1></header>
   <section>
-    <h2>
       <pre>
-        🏡 House Price Prediction — Flask Deployment
-Python | scikit-learn | Flask | License: MIT
-
-A complete, production-style implementation of **House Price Prediction** using Multiple Linear Regression,
+    Python | scikit-learn | Flask | License: MIT</pre>
+    
+<section>
+<p>
+<h2>A complete, production-style implementation of **House Price Prediction** 
+using Multiple Linear Regression,
 trained on a USA housing dataset, and served through a Flask web application.
-      </pre>
     </h2>
+  </p>
   </section>
 
   <section>
