@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
 </head>
 <body>
-  <header><h1>🏡 House Price Prediction Under Viharatech Organization</h1></header>
+  <header><h1>🏡 House Price Prediction -OOPS Implementation with Flask Deployment</h1></header>
 
   <section>
     <h2>📌 Project Overview</h2>
@@ -69,7 +69,7 @@ HousePricePrediction/
     <pre><code>python main.py</code></pre>
     <p>Run the Flask app:</p>
     <pre><code>python app.py</code></pre>
-    <p>Open in browser: <strong>http://127.0.0.1:5000/</strong></p>
+    <p>Open in browser: <strong>https://house-price-prediction-project-tc3w.onrender.com/</strong></p>
   </section>
 
   <section>
@@ -78,11 +78,7 @@ HousePricePrediction/
     <p><strong>Output:</strong> Predicted Price: $366,308.21</p>
   </section>
 
-  <section>
-    <h2>🖼️ Demo Screenshot</h2>
-    <p>Below is a sample run of the House Price Prediction web app:</p>
-    <img src="static/demo.png" alt="House Price Prediction Screenshot">
-  </section>
+  
 
   <section>
     <h2>🛠️ Technologies Used</h2>
@@ -99,9 +95,9 @@ HousePricePrediction/
   <section>
     <h2>📬 Contact & Support</h2>
     <p><strong>Author:</strong> S. Lakshmi Kaveri</p>
-    <p>💼 LinkedIn: <a href="https://linkedin.com" target="_blank">Your LinkedIn</a></p>
-    <p>🐙 GitHub: <a href="https://github.com" target="_blank">Your GitHub</a></p>
-    <p>📧 Email: your.email@example.com</p>
+    <p>💼 LinkedIn: <a href="https://linkedin.com" target="_blank"> LinkedIn</a></p>
+    <p>🐙 GitHub: <a href="https://github.com" target="_blank"> GitHub</a></p>
+    <p>📧 Email: sankathalalakshmikaveri93@gmail.com</p>
   </section>
 
   <div class="footer">
