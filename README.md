@@ -3,10 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🏡 House Price Prediction — Viharatech</title>
 </head>
 <body>
-  <header>🏡 House Price Prediction Under Viharatech Organization</header>
+  <header><h1>🏡 House Price Prediction Under Viharatech Organization</h1></header>
 
   <section>
     <h2>📌 Project Overview</h2>
