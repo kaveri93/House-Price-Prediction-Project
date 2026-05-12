@@ -95,9 +95,9 @@ HousePricePrediction/
   <section>
     <h2>📬 Contact & Support</h2>
     <p><strong>Author:</strong> S. Lakshmi Kaveri</p>
-    <p>💼 LinkedIn: <a href="https://linkedin.com" target="_blank"> LinkedIn</a></p>
-    <p>🐙 GitHub: <a href="https://github.com" target="_blank"> GitHub</a></p>
-    <p>📧 Email: sankathalalakshmikaveri93@gmail.com</p>
+    <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/kaveri03/" target="_blank"> LinkedIn</a></p>
+    <p>🐙 GitHub: <a href="https://github.com/kaveri93" target="_blank"> GitHub</a></p>
+    <p>📧 Email: <a href="sankathalalakshmikaveri93@gmail.com" traget="_balnk"> Email</a></p>
   </section>
 
   <div class="footer">
