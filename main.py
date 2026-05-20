@@ -1,16 +1,15 @@
 '''
 In this file we are going to load the data and develop House price prediction code in oops concept
 '''
-import sys
 import numpy as np
 import pandas as pd
 import sklearn
-from pandas.io.clipboard import clipboard_set
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import warnings
 warnings.filterwarnings("ignore")
+import sys
 import pickle
 class HPP:
     def __init__(self,path):
